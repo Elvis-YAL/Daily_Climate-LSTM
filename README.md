@@ -1,6 +1,8 @@
-# Daily Climate with LSTM
-Hey guys, in this notebook, I will do some EDA and use LSTM to predict and analyze daily climate.  
-First, Let's take a look at this data. 
+# Daily Climate Analysis : Project Overview
+* Forecasted weather patterns in India, providing local residents with advanced predictions of abnormal temperature fluctuations.
+* Utilized LSTM to predict future weather trends and fine-tuned the model to achieve a validation loss below 0.05.
+
+## Let's get started! 
 
 ### Part 1: Time Sereis Analysis
 Let's do some seasonal decomposition. Breaking down the 'meantemp' data into its underlying trend, seasonality, and residuals. The Seasonal-Trend decomposition using LOESS (STL) provides a way to study the underlying trend in the mean temperature over time. This helps us understand how the mean temperature has been changing, excluding seasonal variations and random noise.
